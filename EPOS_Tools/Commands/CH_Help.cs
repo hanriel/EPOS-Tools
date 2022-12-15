@@ -12,7 +12,8 @@ namespace EPOS_Tools.Commands
         {
             Logger.Log("Справка по приложению:");
             Logger.Log("exit - завершить работу приложения");
-            Logger.Log("get <url> - Получить веб страницу ГЕЙ запросом");
+            Logger.Log("report <all, activity, homework, themes> - Модуль работы с отчетами");
+            Logger.Log("get <url> - Получить веб страницу гет запросом");
             Logger.Log("help - вывести эту справку");
         }
     }
